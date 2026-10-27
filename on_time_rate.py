@@ -1,4 +1,3 @@
-# Practice Problem
 # Order Fulfillment Analysis
 # Scenario: Here is a list of customer orders and asks you to identify which orders were delivered on time.
 orders = [
@@ -14,7 +13,6 @@ orders = [
 # [order_id, promised_delivery_day, actual_delivery_day]
 # For example, ["ORD002", 5, 7] means the order was promised on day 5 but arrived on day 7.
 
-# Your tasks
 # 1. Loop through every order.
 # 2. Compare the actual delivery day with the promised delivery day.
 # 3. Print one of these statuses for each order:
@@ -36,6 +34,7 @@ orders = [
 # Orders Delivered On Time or Early: X
 # Late Orders: X
 # On-Time Delivery Rate: XX.XX%
+
 total_orders = 0
 delivery_time = 0
 num_ontime_or_early = 0
